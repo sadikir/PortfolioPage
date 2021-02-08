@@ -315,5 +315,44 @@ color:white;
   
   height:400px;
 }
+#contact>ul{
+  width:95%;
+  padding-inline-start:0px;
+}
+#contact>ul>li{
+  display:block;
+
+}
+#contact>ul>li>a{
+display:block;
+
+}
+#home-name{
+  text-align:center;
+  font-size:55px;
+  color:white;;
+  margin-top: 200px;
+  font-weight:bolder;
+  background:black;
+  padding-top:20px;
+  padding-bottom:20px;
+  display:inline-block;
+  width:80%;
+  
+  transform: skew(10deg);
+}
+#home-job{
+  text-align:center;
+  color:white;
+  font-size:30px;
+  font-weight:bolder;
+  background:black;
+  padding-top:20px;
+  padding-bottom:20px;
+  margin-top:0px;
+  display:block;
+  width:80%;
+  transform: skewX(10deg);
+}
 }
   
