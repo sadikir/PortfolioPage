@@ -293,6 +293,25 @@ color:white;
   margin-left:20px;
 }
 @media screen and (max-width:800px){
+
+  #home-name{
+    text-align:center;
+    background:black;
+    color:white;
+    width:90%;
+    margin-left:5%;
+    font-size:35px;
+    transform: skew(10deg);
+  }
+  #home-job{
+    text-align:center;
+    color: white;
+    width:70%;
+    margin-left:15%;
+    background:black;
+   
+    transform: skewX(10deg);
+  }
   #inner-about{
     width: 95%;
     display:flex;
@@ -327,32 +346,6 @@ color:white;
 display:block;
 
 }
-#home-name{
-  text-align:center;
-  font-size:55px;
-  color:white;;
-  margin-top: 200px;
-  font-weight:bolder;
-  background:black;
-  padding-top:20px;
-  padding-bottom:20px;
-  display:inline-block;
-  width:80%;
-  
-  transform: skew(10deg);
-}
-#home-job{
-  text-align:center;
-  color:white;
-  font-size:30px;
-  font-weight:bolder;
-  background:black;
-  padding-top:20px;
-  padding-bottom:20px;
-  margin-top:0px;
-  display:block;
-  width:80%;
-  transform: skewX(10deg);
-}
+
 }
   
