@@ -58,7 +58,6 @@ html {
   overflow: hidden;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
 }
 #home-name {
   text-align: center;
@@ -305,6 +304,9 @@ progress::-webkit-progress-bar {
   margin-left: 20px;
 }
 @media screen and (max-width: 848px) {
+  #welcome-section {
+    background-position: center;
+  }
   #desktop-menu {
     display: none;
   }
